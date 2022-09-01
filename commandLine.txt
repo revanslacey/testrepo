@@ -1,0 +1,725 @@
+Richard**@MacBook-Pro-610 Test % brew install php
+Running `brew update --preinstall`...
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> New Formulae
+aarch64-elf-binutils        http-prompt                 pipe-rename
+aarch64-elf-gcc             httpyac                     pixie
+acl                         hut                         pixiewps
+adamstark-audiofile         hwatch                      pkcs11-tools
+age-plugin-yubikey          hyx                         poac
+agg                         ifacemaker                  pocl
+alpscore                    ijq                         podman-compose
+ansible-language-server     imposm3                     postgraphile
+arxiv_latex_cleaner         inih                        powerman-dockerize
+ascii2binary                inotify-tools               primecount
+astro                       install-peerdeps            procyon-decompiler
+asyncapi                    interface99                 protobuf@3
+atlas                       iodine                      prql-compiler
+autocannon                  iptables                    prr
+aws-auth                    jackett                     purescript-language-server
+aws-nuke                    jaq                         pymol
+aws2-wrap                   jdtls                       pymupdf
+aztfy                       jless                       python-build
+bartib                      juliaup                     qbe
+berkeley-db@5               jupp                        qsv
+bfgminer                    kalign                      quick-lint-js
+bk                          kdoctor                     quran
+bkt                         kics                        railway
+boost@1.76                  kmod                        rdb
+bore-cli                    koka                        redis@6.2
+brev                        kopia                       release-it
+burst                       ksh93                       req
+bvm                         kt-connect                  reshape
+c2rust                      kubekey                     ripsecrets
+canfigger                   kubescape                   roapi
+cargo-bundle                kyverno                     rospo
+cargo-crev                  leapp-cli                   rslint
+cargo-depgraph              levant                      ruby@3.0
+cargo-nextest               lexicon                     rure
+cargo-udeps                 lgeneral                    rush-parallel
+censys                      libabw                      sdl12-compat
+cfonts                      libadwaita                  sdl2_sound
+chain-bench                 libapplewm                  sftpgo
+checkmake                   libbpf                      sgn
+circumflex                  libcython                   sgr
+cloudflare-quiche           libeatmydata                shaderc
+cloudflared                 libmarpa                    shadowsocks-rust
+compiledb                   libnetfilter_conntrack      slither-analyzer
+cpi                         libnftnl                    smap
+cpp-httplib                 libnl                       snapcast
+cpptoml                     libobjc2                    snowflake
+cql-proxy                   libpython-tabulate          solc-select
+create-api                  librasterlite2              sophus
+criterion                   libtpms                     spago
+crytic-compile              libvatek                    spidermonkey@78
+csview                      libxcrypt                   spirv-headers
+cxgo                        libxcvt                     spr
+czg                         libxfont2                   sqls
+dagger                      licensor                    sse2neon
+dart-sdk                    linode-cli                  sshs
+datatype99                  linux-headers@5.15          stanc3
+dbml-cli                    linux-headers@5.16          stencil
+ddcutil                     litani                      stylish-haskell
+ddh                         livekit                     svt-av1
+difftastic                  livekit-cli                 swiftdraw
+docker-buildx               llvm@13                     swtpm
+doggo                       lndir                       synergy-core
+dooit                       localtunnel                 tagref
+dotdrop                     ltex-ls                     tarlz
+dpp                         lucky-commit                tea
+dsda-doom                   lunar-date                  teller
+dsq                         mabel                       tere
+dtrx                        maclaunch                   terminalimageviewer
+dump1090-mutability         manifest-tool               terraform-lsp
+dumpling                    mapproxy                    terramate
+dunamai                     mariadb@10.6                testkube
+dura                        mariadb@10.7                textidote
+dynaconf                    markdown-toc                tfschema
+easeprobe                   mbt                         tidy-viewer
+ecflow-ui                   mbw                         tinysearch
+editorconfig-checker        mcap                        tlsx
+eget                        meek                        toxcore
+elixir-ls                   melody                      tradcpp
+elvis                       mesheryctl                  treefmt
+enex2notion                 metalang99                  tremor-runtime
+epinio                      micro_inetd                 trivy
+erlang@24                   minimap2                    trzsz
+esphome                     mkfontscale                 trzsz-go
+evernote-backup             mkp224o                     ttdl
+fastnetmon                  mle                         ttmath
+fb303                       mongodb-atlas-cli           tuc
+fbthrift                    monika                      tuntox
+fclones                     mprocs                      tygo
+fdroidcl                    mu-repo                     ugit
+felinks                     mypaint-brushes             unisonlang
+ffmpeg@4                    nali                        usbutils
+flix                        naml                        uthash
+flock                       nb                          uutils-findutils
+flyctl                      neovide                     vcluster
+fortran-language-server     nftables                    vectorscan
+fourmolu                    nickel                      verapdf
+freebayes                   nmrpflash                   vermin
+gaze                        numdiff                     vile
+gcc@11                      nvchecker                   vineyard
+gcem                        oak                         virt-manager
+gemgen                      observerward                vkectl
+ghcup                       ocl-icd                     vsce
+ghorg                       octosql                     vulkan-loader
+gi-docgen                   odo-dev                     wasm-tools
+git-codereview              oh-my-posh                  wb32-dfu-updater_cli
+git-delete-merged-branches  ohdear-cli                  webkitgtk
+git-sync                    onlykey-agent               webp-pixbuf-loader
+git-workspace               open62541                   websocketpp
+glibc@2.13                  opencl-headers              weggli
+glider                      opendht                     werf
+gnustep-base                openjdk@17                  wordle
+go@1.17                     opentelemetry-cpp           x86_64-linux-gnu-binutils
+go@1.18                     openvi                      xcode-kotlin
+goctl                       ouch                        xdg-ninja
+gokart                      pacmc                       xidel
+gops                        page                        xkbcomp
+groestlcoin                 pax                         xkcd
+gst-plugins-rs              pg_cron                     xpipe
+gum                         pg_partman                  yamale
+hatch                       pget                        yorkie
+helix                       phrase-cli                  zx
+helmify                     pinot
+highs                       pint
+
+You have 2 outdated formulae installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
+
+==> Downloading https://ghcr.io/v2/homebrew/core/apr/manifests/1.7.0_3
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/apr/blobs/sha256:365d71d8598761991
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2022-07-
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:9e0df
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/manifests/1.1.1q
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:b4dabe010
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/apr-util/manifests/1.6.1_4
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/apr-util/blobs/sha256:7695efa17e53
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/argon2/manifests/20190702_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/argon2/blobs/sha256:decd61f1d85322
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/aspell/manifests/0.60.8-1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/aspell/blobs/sha256:91f9e3083f86a0
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/m4/manifests/1.4.19
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/m4/blobs/sha256:8a17c921e5135206c3
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/autoconf/manifests/2.71
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/autoconf/blobs/sha256:de8f4aa4123d
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/brotli/manifests/1.0.9
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/brotli/blobs/sha256:985ce69f1aece7
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/manifests/1.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/blobs/sha256:18a16912
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libidn2/manifests/2.3.3
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libidn2/blobs/sha256:1ed7a729a0e67
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/manifests/1.49.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:6c2b493f53
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libssh2/manifests/1.10.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libssh2/blobs/sha256:97126a03685c5
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openldap/manifests/2.6.3
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openldap/blobs/sha256:107f7937af3e
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/rtmpdump/manifests/2.4.20151223_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/rtmpdump/blobs/sha256:f85231e41536
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/lz4/manifests/1.9.4
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/lz4/blobs/sha256:88b369cea90a0a119
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/manifests/5.2.6
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:853c17e5062001c0bf
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/zstd/manifests/1.5.2-3
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/zstd/blobs/sha256:b0eabfa556c5aed0
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/curl/manifests/7.84.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/curl/blobs/sha256:17fc00c4141f772f
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libtool/manifests/2.4.7
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libtool/blobs/sha256:33bf837925679
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/unixodbc/manifests/2.3.11
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/unixodbc/blobs/sha256:a4d5de6d5387
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/freetds/manifests/1.3.13
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/freetds/blobs/sha256:61e9683fdeb50
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libpng/manifests/1.6.37
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libpng/blobs/sha256:7209cfe63b2e8f
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/freetype/manifests/2.12.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:3d4afd3f0405
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/fontconfig/manifests/2.14.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/fontconfig/blobs/sha256:6bd89f45f2
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-turbo/manifests/2.1.4
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:d2d17e1b59
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/giflib/manifests/5.2.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:fa6adb4afc1abd
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/imath/manifests/3.1.5
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/imath/blobs/sha256:60265951d4debb7
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/manifests/3.1.5
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/blobs/sha256:7b5eac70a2b63
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libtiff/manifests/4.4.0_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:87bb203517b2d
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/webp/manifests/1.2.4
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/webp/blobs/sha256:51401f60176f1955
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-xl/manifests/0.6.1_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-xl/blobs/sha256:e310aca584c33
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libvmaf/manifests/2.3.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libvmaf/blobs/sha256:a30aaf6bd5878
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/aom/manifests/3.4.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/aom/blobs/sha256:a06dca8e5ce52a095
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libavif/manifests/0.10.1_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libavif/blobs/sha256:e025a5a329f4c
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gd/manifests/2.3.3_3
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gd/blobs/sha256:091026601baffccdd8
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/manifests/6.2.1_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/blobs/sha256:dddc6d8c871c92f6e
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/manifests/70.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:321592eb1aebb7c
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/krb5/manifests/1.20
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/krb5/blobs/sha256:99e8f567b0f70cc5
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libpq/manifests/14.5-1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libpq/blobs/sha256:8c0312c3308e1d0
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libsodium/manifests/1.0.18_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libsodium/blobs/sha256:522ac3f26c6
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libzip/manifests/1.9.2
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libzip/blobs/sha256:9ebb3c03505035
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/oniguruma/manifests/6.9.8
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/oniguruma/blobs/sha256:680427d257a
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.40
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:3d2707e8d5a80e1
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.1.2
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:976185ec2432
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.39.2
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:faba8d1938f5f3
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/tidy-html5/manifests/5.8.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/tidy-html5/blobs/sha256:eb97c832fb
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/php/manifests/8.1.9
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/php/blobs/sha256:e12ced9f0b71a8cdb
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Installing dependencies for php: apr, ca-certificates, openssl@1.1, apr-util, argon2, aspell, m4, autoconf, brotli, libunistring, libidn2, libnghttp2, libssh2, openldap, rtmpdump, lz4, xz, zstd, curl, libtool, unixodbc, freetds, libpng, freetype, fontconfig, jpeg-turbo, giflib, imath, openexr, libtiff, webp, jpeg-xl, libvmaf, aom, libavif, gd, gmp, icu4c, krb5, libpq, libsodium, libzip, oniguruma, pcre2, readline, sqlite and tidy-html5
+==> Installing php dependency: apr
+==> Pouring apr--1.7.0_3.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/apr/1.7.0_3: 59 files, 1.4MB
+==> Installing php dependency: ca-certificates
+==> Pouring ca-certificates--2022-07-19_1.all.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /usr/local/Cellar/ca-certificates/2022-07-19_1: 3 files, 222.7KB
+==> Installing php dependency: openssl@1.1
+==> Pouring openssl@1.1--1.1.1q.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/openssl@1.1/1.1.1q: 8,097 files, 18.5MB
+==> Installing php dependency: apr-util
+==> Pouring apr-util--1.6.1_4.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/apr-util/1.6.1_4: 54 files, 851.5KB
+==> Installing php dependency: argon2
+==> Pouring argon2--20190702_1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/argon2/20190702_1: 12 files, 667.8KB
+==> Installing php dependency: aspell
+==> Pouring aspell--0.60.8.monterey.bottle.1.tar.gz
+🍺  /usr/local/Cellar/aspell/0.60.8: 767 files, 322.6MB
+==> Installing php dependency: m4
+==> Pouring m4--1.4.19.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/m4/1.4.19: 13 files, 740.8KB
+==> Installing php dependency: autoconf
+==> Pouring autoconf--2.71.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/autoconf/2.71: 71 files, 3.2MB
+==> Installing php dependency: brotli
+==> Pouring brotli--1.0.9.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/brotli/1.0.9: 25 files, 2.3MB
+==> Installing php dependency: libunistring
+==> Pouring libunistring--1.0.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libunistring/1.0: 56 files, 5MB
+==> Installing php dependency: libidn2
+==> Pouring libidn2--2.3.3.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libidn2/2.3.3: 78 files, 987.7KB
+==> Installing php dependency: libnghttp2
+==> Pouring libnghttp2--1.49.0.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libnghttp2/1.49.0: 13 files, 726.7KB
+==> Installing php dependency: libssh2
+==> Pouring libssh2--1.10.0.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libssh2/1.10.0: 184 files, 999.8KB
+==> Installing php dependency: openldap
+==> Pouring openldap--2.6.3.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/openldap/2.6.3: 340 files, 7.6MB
+==> Installing php dependency: rtmpdump
+==> Pouring rtmpdump--2.4+20151223_1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/rtmpdump/2.4+20151223_1: 20 files, 603.8KB
+==> Installing php dependency: lz4
+==> Pouring lz4--1.9.4.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/lz4/1.9.4: 22 files, 685.2KB
+==> Installing php dependency: xz
+==> Pouring xz--5.2.6.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/xz/5.2.6: 95 files, 1.4MB
+==> Installing php dependency: zstd
+==> Pouring zstd--1.5.2.monterey.bottle.3.tar.gz
+🍺  /usr/local/Cellar/zstd/1.5.2: 31 files, 2.4MB
+==> Installing php dependency: curl
+==> Pouring curl--7.84.0.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/curl/7.84.0: 502 files, 4MB
+==> Installing php dependency: libtool
+==> Pouring libtool--2.4.7.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libtool/2.4.7: 75 files, 3.8MB
+==> Installing php dependency: unixodbc
+==> Pouring unixodbc--2.3.11.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/unixodbc/2.3.11: 48 files, 2.1MB
+==> Installing php dependency: freetds
+==> Pouring freetds--1.3.13.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/freetds/1.3.13: 1,262 files, 13.8MB
+==> Installing php dependency: libpng
+==> Pouring libpng--1.6.37.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libpng/1.6.37: 27 files, 1.3MB
+==> Installing php dependency: freetype
+==> Pouring freetype--2.12.1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/freetype/2.12.1: 67 files, 2.3MB
+==> Installing php dependency: fontconfig
+==> Pouring fontconfig--2.14.0.monterey.bottle.tar.gz
+==> Regenerating font cache, this may take a while
+==> /usr/local/Cellar/fontconfig/2.14.0/bin/fc-cache -frv
+🍺  /usr/local/Cellar/fontconfig/2.14.0: 84 files, 2.3MB
+==> Installing php dependency: jpeg-turbo
+==> Pouring jpeg-turbo--2.1.4.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/jpeg-turbo/2.1.4: 44 files, 3.8MB
+==> Installing php dependency: giflib
+==> Pouring giflib--5.2.1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/giflib/5.2.1: 19 files, 583.7KB
+==> Installing php dependency: imath
+==> Pouring imath--3.1.5.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/imath/3.1.5: 49 files, 924.7KB
+==> Installing php dependency: openexr
+==> Pouring openexr--3.1.5.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/openexr/3.1.5: 194 files, 5.9MB
+==> Installing php dependency: libtiff
+==> Pouring libtiff--4.4.0_1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libtiff/4.4.0_1: 249 files, 4.5MB
+==> Installing php dependency: webp
+==> Pouring webp--1.2.4.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/webp/1.2.4: 41 files, 2.5MB
+==> Installing php dependency: jpeg-xl
+==> Pouring jpeg-xl--0.6.1_1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/jpeg-xl/0.6.1_1: 61 files, 17.8MB
+==> Installing php dependency: libvmaf
+==> Pouring libvmaf--2.3.1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libvmaf/2.3.1: 234 files, 7.1MB
+==> Installing php dependency: aom
+==> Pouring aom--3.4.0.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/aom/3.4.0: 23 files, 13.7MB
+==> Installing php dependency: libavif
+==> Pouring libavif--0.10.1_1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libavif/0.10.1_1: 19 files, 429.8KB
+==> Installing php dependency: gd
+==> Pouring gd--2.3.3_3.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/gd/2.3.3_3: 33 files, 1.5MB
+==> Installing php dependency: gmp
+==> Pouring gmp--6.2.1_1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/gmp/6.2.1_1: 21 files, 3.3MB
+==> Installing php dependency: icu4c
+==> Pouring icu4c--70.1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/icu4c/70.1: 261 files, 74.4MB
+==> Installing php dependency: krb5
+==> Pouring krb5--1.20.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/krb5/1.20: 162 files, 5.1MB
+==> Installing php dependency: libpq
+==> Pouring libpq--14.5.monterey.bottle.1.tar.gz
+🍺  /usr/local/Cellar/libpq/14.5: 2,340 files, 27.9MB
+==> Installing php dependency: libsodium
+==> Pouring libsodium--1.0.18_1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libsodium/1.0.18_1: 73 files, 1MB
+==> Installing php dependency: libzip
+==> Pouring libzip--1.9.2.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libzip/1.9.2: 145 files, 778.5KB
+==> Installing php dependency: oniguruma
+==> Pouring oniguruma--6.9.8.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/oniguruma/6.9.8: 14 files, 1.4MB
+==> Installing php dependency: pcre2
+==> Pouring pcre2--10.40.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/pcre2/10.40: 230 files, 6.4MB
+==> Installing php dependency: readline
+==> Pouring readline--8.1.2.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/readline/8.1.2: 48 files, 1.6MB
+==> Installing php dependency: sqlite
+==> Pouring sqlite--3.39.2.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/sqlite/3.39.2: 11 files, 4.4MB
+==> Installing php dependency: tidy-html5
+==> Pouring tidy-html5--5.8.0.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/tidy-html5/5.8.0: 14 files, 2.9MB
+==> Installing php
+==> Pouring php--8.1.9.monterey.bottle.tar.gz
+==> /usr/local/Cellar/php/8.1.9/bin/pear config-set php_ini /usr/local/etc/php/8.1/
+==> /usr/local/Cellar/php/8.1.9/bin/pear config-set php_dir /usr/local/share/pear s
+==> /usr/local/Cellar/php/8.1.9/bin/pear config-set doc_dir /usr/local/share/pear/d
+==> /usr/local/Cellar/php/8.1.9/bin/pear config-set ext_dir /usr/local/lib/php/pecl
+==> /usr/local/Cellar/php/8.1.9/bin/pear config-set bin_dir /usr/local/opt/php/bin 
+==> /usr/local/Cellar/php/8.1.9/bin/pear config-set data_dir /usr/local/share/pear/
+==> /usr/local/Cellar/php/8.1.9/bin/pear config-set cfg_dir /usr/local/share/pear/c
+==> /usr/local/Cellar/php/8.1.9/bin/pear config-set www_dir /usr/local/share/pear/h
+==> /usr/local/Cellar/php/8.1.9/bin/pear config-set man_dir /usr/local/share/man sy
+==> /usr/local/Cellar/php/8.1.9/bin/pear config-set test_dir /usr/local/share/pear/
+==> /usr/local/Cellar/php/8.1.9/bin/pear config-set php_bin /usr/local/opt/php/bin/
+==> /usr/local/Cellar/php/8.1.9/bin/pear update-channels
+==> Caveats
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /usr/local/opt/php/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /usr/local/etc/php/8.1/
+
+To restart php after an upgrade:
+  brew services restart php
+Or, if you don't want/need a background service you can just run:
+  /usr/local/opt/php/sbin/php-fpm --nodaemonize
+==> Summary
+🍺  /usr/local/Cellar/php/8.1.9: 513 files, 80.1MB
+==> Running `brew cleanup php`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Upgrading 1 dependent of upgraded formulae:
+Disable this behaviour by setting HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+git 2.34.1 -> 2.37.3
+==> Downloading https://ghcr.io/v2/homebrew/core/git/manifests/2.37.3
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/git/blobs/sha256:3388eb9ef80bd4e75
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha25
+######################################################################## 100.0%
+==> Upgrading git
+  2.34.1 -> 2.37.3 
+
+==> Pouring git--2.37.3.monterey.bottle.tar.gz
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+zsh completions and functions have been installed to:
+  /usr/local/share/zsh/site-functions
+==> Summary
+🍺  /usr/local/Cellar/git/2.37.3: 1,562 files, 44.6MB
+==> Running `brew cleanup git`...
+Removing: /usr/local/Cellar/git/2.34.1... (1,513 files, 42.7MB)
+Removing: /Users/Richard**/Library/Caches/Homebrew/git--2.34.1... (15.3MB)
+==> Checking for dependents of upgraded formulae...
+==> No broken dependents found!
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /Users/Richard**/Library/Caches/Homebrew/gettext--0.21... (8.7MB)
+Removing: /usr/local/Cellar/pcre2/10.39... (230 files, 6.2MB)
+Removing: /Users/Richard**/Library/Caches/Homebrew/pcre2--10.39... (2.0MB)
+Removing: /Users/Richard**/Library/Caches/Homebrew/pcre2_bottle_manifest--10.39... (7.4KB)
+Removing: /Users/Richard**/Library/Caches/Homebrew/gettext_bottle_manifest--0.21... (10.5KB)
+Removing: /Users/Richard**/Library/Caches/Homebrew/git_bottle_manifest--2.34.1... (11.2KB)
+Removing: /Users/Richard**/Library/Logs/Homebrew/gettext... (64B)
+Removing: /Users/Richard**/Library/Logs/Homebrew/pcre2... (64B)
+Removing: /Users/Richard**/Library/Logs/Homebrew/git... (64B)
+Pruned 1 symbolic links and 9 directories from /usr/local
+==> Caveats
+==> php
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /usr/local/opt/php/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /usr/local/etc/php/8.1/
+
+To restart php after an upgrade:
+  brew services restart php
+Or, if you don't want/need a background service you can just run:
+  /usr/local/opt/php/sbin/php-fpm --nodaemonize
+==> git
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+zsh completions and functions have been installed to:
+  /usr/local/share/zsh/site-functions
+Richard**@MacBook-Pro-610 Test % php --version
+PHP 8.1.9 (cli) (built: Aug  4 2022 15:11:08) (NTS)
+Copyright (c) The PHP Group
+Zend Engine v4.1.9, Copyright (c) Zend Technologies
+    with Zend OPcache v8.1.9, Copyright (c), by Zend Technologies
+Richard**@MacBook-Pro-610 Test % composer --version
+PHP Deprecated:  Return type of Symfony\Component\Console\Helper\HelperSet::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/console/Helper/HelperSet.php on line 112
+
+Deprecated: Return type of Symfony\Component\Console\Helper\HelperSet::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/console/Helper/HelperSet.php on line 112
+Composer version 1.10.6 2020-05-06 10:28:10
+Richard**@MacBook-Pro-610 Test % composer require google/cloud-storage
+PHP Deprecated:  Return type of Symfony\Component\Console\Helper\HelperSet::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/console/Helper/HelperSet.php on line 112
+
+Deprecated: Return type of Symfony\Component\Console\Helper\HelperSet::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/console/Helper/HelperSet.php on line 112
+Deprecation Notice: Optional parameter $schema declared before required parameter $path is implicitly treated as a required parameter in phar:///usr/local/bin/composer/vendor/justinrainbow/json-schema/src/JsonSchema/Constraints/UndefinedConstraint.php:62
+Deprecation Notice: Optional parameter $schema declared before required parameter $path is implicitly treated as a required parameter in phar:///usr/local/bin/composer/vendor/justinrainbow/json-schema/src/JsonSchema/Constraints/UndefinedConstraint.php:108
+Deprecation Notice: strlen(): Passing null to parameter #1 ($string) of type string is deprecated in phar:///usr/local/bin/composer/vendor/justinrainbow/json-schema/src/JsonSchema/Constraints/Constraint.php:48
+Deprecation Notice: Return type of Composer\Repository\ArrayRepository::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/src/Composer/Repository/ArrayRepository.php:206
+Deprecation Notice: Return type of Composer\Repository\ArrayRepository::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/src/Composer/Repository/ArrayRepository.php:206
+Deprecation Notice: Return type of Composer\Repository\ArrayRepository::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/src/Composer/Repository/ArrayRepository.php:206
+Deprecation Notice: Method ReflectionParameter::getClass() is deprecated in phar:///usr/local/bin/composer/src/Composer/Repository/RepositoryManager.php:130
+Deprecation Notice: Method ReflectionParameter::getClass() is deprecated in phar:///usr/local/bin/composer/src/Composer/Repository/RepositoryManager.php:130
+Deprecation Notice: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/finder/Finder.php:675
+Deprecation Notice: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/finder/Finder.php:732
+Deprecation Notice: Return type of Symfony\Component\Finder\Iterator\FilterIterator::rewind() should either be compatible with FilterIterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/finder/Iterator/FilterIterator.php:30
+Deprecation Notice: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php:42
+Deprecation Notice: Return type of Symfony\Component\Finder\Iterator\RecursiveDirectoryIterator::getChildren() should either be compatible with RecursiveDirectoryIterator::getChildren(): RecursiveDirectoryIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/finder/Iterator/RecursiveDirectoryIterator.php:85
+Deprecation Notice: Return type of Symfony\Component\Finder\Iterator\RecursiveDirectoryIterator::rewind() should either be compatible with FilesystemIterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/finder/Iterator/RecursiveDirectoryIterator.php:113
+Deprecation Notice: Return type of Symfony\Component\Finder\Iterator\RecursiveDirectoryIterator::current() should either be compatible with FilesystemIterator::current(): SplFileInfo|FilesystemIterator|string, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/finder/Iterator/RecursiveDirectoryIterator.php:65
+Deprecation Notice: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php:55
+Deprecation Notice: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php:71
+Deprecation Notice: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php:76
+Deprecation Notice: Return type of Symfony\Component\Finder\Iterator\FilterIterator::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/finder/Iterator/FilterIterator.php:30
+Deprecation Notice: Return type of Symfony\Component\Finder\Iterator\DateRangeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/finder/Iterator/DateRangeFilterIterator.php:41
+Deprecation Notice: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/finder/Iterator/PathFilterIterator.php:27
+Deprecation Notice: Return type of Composer\Repository\CompositeRepository::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/src/Composer/Repository/CompositeRepository.php:139
+Deprecation Notice: Return type of Composer\DependencyResolver\Pool::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/Pool.php:166
+Warning from https://repo.packagist.org: Support for Composer 1 is deprecated and some packages will not be available. You should upgrade to Composer 2. See https://blog.packagist.com/deprecating-composer-1-support/
+Info from https://repo.packagist.org: #StandWithUkraine
+Using version ^1.28 for google/cloud-storage
+./composer.json has been created
+Deprecation Notice: strlen(): Passing null to parameter #1 ($string) of type string is deprecated in phar:///usr/local/bin/composer/vendor/justinrainbow/json-schema/src/JsonSchema/Constraints/Constraint.php:48
+Deprecation Notice: Method ReflectionParameter::getClass() is deprecated in phar:///usr/local/bin/composer/src/Composer/Repository/RepositoryManager.php:130
+Deprecation Notice: Method ReflectionParameter::getClass() is deprecated in phar:///usr/local/bin/composer/src/Composer/Repository/RepositoryManager.php:130
+Deprecation Notice: Return type of Composer\Repository\ArrayRepository::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/src/Composer/Repository/ArrayRepository.php:206
+Loading composer repositories with package information
+Warning from https://repo.packagist.org: Support for Composer 1 is deprecated and some packages will not be available. You should upgrade to Composer 2. See https://blog.packagist.com/deprecating-composer-1-support/
+Info from https://repo.packagist.org: #StandWithUkraine
+Updating dependencies (including require-dev)
+Deprecation Notice: Return type of Composer\DependencyResolver\RuleSet::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleSet.php:114
+Deprecation Notice: Return type of Composer\DependencyResolver\RuleSet::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleSet.php:99
+Deprecation Notice: Return type of Composer\DependencyResolver\Decisions::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/Decisions.php:155
+Deprecation Notice: Return type of Composer\DependencyResolver\Decisions::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/Decisions.php:165
+Deprecation Notice: Return type of Composer\DependencyResolver\Decisions::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/Decisions.php:160
+Deprecation Notice: Return type of Composer\DependencyResolver\Decisions::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/Decisions.php:170
+Deprecation Notice: Return type of Composer\DependencyResolver\Decisions::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/Decisions.php:150
+Deprecation Notice: Return type of Composer\DependencyResolver\Decisions::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/Decisions.php:145
+Deprecation Notice: Return type of Composer\DependencyResolver\RuleSetIterator::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleSetIterator.php:36
+Deprecation Notice: Return type of Composer\DependencyResolver\RuleSetIterator::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleSetIterator.php:46
+Deprecation Notice: Return type of Composer\DependencyResolver\RuleSetIterator::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleSetIterator.php:41
+Deprecation Notice: Return type of Composer\DependencyResolver\RuleSetIterator::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleSetIterator.php:89
+Deprecation Notice: Return type of Composer\DependencyResolver\RuleSetIterator::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleSetIterator.php:70
+PHP Fatal error:  Uncaught ArgumentCountError: array_merge() does not accept unknown named parameters in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/DefaultPolicy.php:84
+Stack trace:
+#0 [internal function]: array_merge(google/cloud-storage: Array)
+#1 phar:///usr/local/bin/composer/src/Composer/DependencyResolver/DefaultPolicy.php(84): call_user_func_array('array_merge', Array)
+#2 phar:///usr/local/bin/composer/src/Composer/DependencyResolver/Solver.php(387): Composer\DependencyResolver\DefaultPolicy->selectPreferredPackages(Object(Composer\DependencyResolver\Pool), Array, Array, 'google/cloud-st...')
+#3 phar:///usr/local/bin/composer/src/Composer/DependencyResolver/Solver.php(740): Composer\DependencyResolver\Solver->selectAndInstall(1, Array, Array, Object(Composer\DependencyResolver\GenericRule))
+#4 phar:///usr/local/bin/composer/src/Composer/DependencyResolver/Solver.php(231): Composer\DependencyResolver\Solver->runSat(Array)
+#5 phar:///usr/local/bin/composer/src/Composer/Installer.php(489): Composer\DependencyResolver\Solver->solve(Object(Composer\DependencyResolver\Request), false)
+#6 phar:///usr/local/bin/composer/src/Composer/Installer.php(232): Composer\Installer->doInstall(Object(Composer\Repository\InstalledFilesystemRepository), Object(Composer\Repository\CompositeRepository), Object(Composer\Repository\PlatformRepository), Array)
+#7 phar:///usr/local/bin/composer/src/Composer/Command/RequireCommand.php(248): Composer\Installer->run()
+#8 phar:///usr/local/bin/composer/src/Composer/Command/RequireCommand.php(205): Composer\Command\RequireCommand->doUpdate(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput), Object(Composer\IO\ConsoleIO), Array)
+#9 phar:///usr/local/bin/composer/vendor/symfony/console/Command/Command.php(245): Composer\Command\RequireCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(185): Symfony\Component\Console\Application->doRunCommand(Object(Composer\Command\RequireCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 phar:///usr/local/bin/composer/src/Composer/Console/Application.php(281): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(117): Composer\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 phar:///usr/local/bin/composer/src/Composer/Console/Application.php(113): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 phar:///usr/local/bin/composer/bin/composer(61): Composer\Console\Application->run()
+#16 /usr/local/bin/composer(24): require('phar:///usr/loc...')
+#17 {main}
+  thrown in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/DefaultPolicy.php on line 84
+
+Fatal error: Uncaught ArgumentCountError: array_merge() does not accept unknown named parameters in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/DefaultPolicy.php:84
+Stack trace:
+#0 [internal function]: array_merge(google/cloud-storage: Array)
+#1 phar:///usr/local/bin/composer/src/Composer/DependencyResolver/DefaultPolicy.php(84): call_user_func_array('array_merge', Array)
+#2 phar:///usr/local/bin/composer/src/Composer/DependencyResolver/Solver.php(387): Composer\DependencyResolver\DefaultPolicy->selectPreferredPackages(Object(Composer\DependencyResolver\Pool), Array, Array, 'google/cloud-st...')
+#3 phar:///usr/local/bin/composer/src/Composer/DependencyResolver/Solver.php(740): Composer\DependencyResolver\Solver->selectAndInstall(1, Array, Array, Object(Composer\DependencyResolver\GenericRule))
+#4 phar:///usr/local/bin/composer/src/Composer/DependencyResolver/Solver.php(231): Composer\DependencyResolver\Solver->runSat(Array)
+#5 phar:///usr/local/bin/composer/src/Composer/Installer.php(489): Composer\DependencyResolver\Solver->solve(Object(Composer\DependencyResolver\Request), false)
+#6 phar:///usr/local/bin/composer/src/Composer/Installer.php(232): Composer\Installer->doInstall(Object(Composer\Repository\InstalledFilesystemRepository), Object(Composer\Repository\CompositeRepository), Object(Composer\Repository\PlatformRepository), Array)
+#7 phar:///usr/local/bin/composer/src/Composer/Command/RequireCommand.php(248): Composer\Installer->run()
+#8 phar:///usr/local/bin/composer/src/Composer/Command/RequireCommand.php(205): Composer\Command\RequireCommand->doUpdate(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput), Object(Composer\IO\ConsoleIO), Array)
+#9 phar:///usr/local/bin/composer/vendor/symfony/console/Command/Command.php(245): Composer\Command\RequireCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(185): Symfony\Component\Console\Application->doRunCommand(Object(Composer\Command\RequireCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 phar:///usr/local/bin/composer/src/Composer/Console/Application.php(281): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(117): Composer\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 phar:///usr/local/bin/composer/src/Composer/Console/Application.php(113): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 phar:///usr/local/bin/composer/bin/composer(61): Composer\Console\Application->run()
+#16 /usr/local/bin/composer(24): require('phar:///usr/loc...')
+#17 {main}
+  thrown in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/DefaultPolicy.php on line 84
+Richard**@MacBook-Pro-610 Test % 
